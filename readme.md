@@ -1,6 +1,8 @@
 # writting machine effect
 Simple class to create machine writting effect on texts with minimal configuration.
 
+## See demo 
+[Live demo](https://chemaalfonso.github.io/writting-machine/)
 
 ## Usage
 
