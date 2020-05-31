@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Chema Alfonso">
+        <title>Writting Machine</title>
+
+        <style>
+            body {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                color: #343434;
+                background-color: #fff;
+            }
+
+            .brand,
+            .brand-gh {
+                position: fixed;
+                left: 2rem;
+                top: 2rem;
+                color: #343434;
+                font-size: 1.5rem;
+                text-decoration: none;
+                letter-spacing: 2px;
+                transition: all .3s;
+            }
+
+                .brand:hover,
+                .brand-gh:hover {
+                    color: #e9bf35;
+                }
+
+            .brand-gh {
+                left: auto;
+                right: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <a class="brand" href="chemaalfonso.com">ChemaAlfonso.com</a>
+        <a class="brand-gh" href="https://github.com/ChemaAlfonso/writting-machine">View on github</a>
+        <h1 class="written-text" id="wt1"></h1>
+
+        <script src="js/writting-machine.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
